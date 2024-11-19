@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1> 입력폼 , 입력 관련 마크업들</h1>
+
+    <form> <!-- 여러 입력 마크업들을 묶어주는 역할 추후에 자바와 통신을 할 수 있음 중요함-->
+        <input type = "text" value ="유재석" disabled/>  <br/>
+        <input type = "password" placeholder="비밀번호" maxlength="4" autofocus/> <br/>
+
+        <input type = "email"/> <br/>
+        <input type = "file" multiple/>  <br/>
+        <input type = "color"/> <br/>
+        <input type = "datetime-local"/> <br/>
+        <input type = "submit"/> <!--폼 전송, 추후에 백엔드 에게 통신 전송을 함-->
+        <input type = "month"/> <br/>
+        <input type = "week"/> <br/>
+        <input type = "range"/> <br/>   <!--범위-->
+        <input type = "number"/> <br/> <br/> <!--숫자-->
+        <input type = "radio" name="동의여부1"/>예
+        <input type = "radio" name="동의여부2"/> 아니오 <br/>
+        <input type = "checkbox"/> 검색 <br/>
+
+        <input type = "submit"/>  <!--폼전송 , 추후에 백엔드에게 통신제공--> <br/>
+        <input type = "reset"/>   <!--현재 폼 안에 입력된 값 초기화-->  <br/>
+        <input type = "button"/> <!--기능없는 일반버튼 추가 추후에 자바스크립트 이벤트 연동-->  <br/>
+
+        <textarea rows = "5" cols ="10"> 긴글 텍스트 상자</textarea> <br/>
+        <select>
+            <option> 네이버 </option>
+            <option> 카카오 </option>
+            <option> 다음 </option>
+
+        </select>
+    </form>
+
+    <form>
+        <fieldset>
+        <legend>사용자 아이디</legend>
+        <label>아이디</label> <input type = "text"/>
+    </fieldset>
+    </form>
+</body>
+</html>

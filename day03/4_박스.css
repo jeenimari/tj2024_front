@@ -1,0 +1,66 @@
+/*구역확인하기*/
+
+*{border : solid 3px red
+}
+
+/*마크업 하나당 하나의 구역을 갖음*/
+html{
+    border: solid 5px yellow;
+    body{border: solid 4px blue;}
+}
+.box1{
+    border:solid 3px pink
+}
+
+.box2{
+    border-top:1px solid orange ; /*상단 테두리 solid가 실선*/ 
+    border-right:2px dotted skyblue; /*오른쪽 테두리 dotted가 점선*/
+    border-bottom:3px dashed black ;/*dashed파선 하단 테두리*/
+    border-left: 4px double green; /*왼쪽 테두리 이중선*/
+    border-radius: 10px; /*둥근모서리*/
+    box-shadow: 5px 5px 5px orange;/*X축 Y축 /흐림정도 /색상*/
+    text-align: center; /*박스자체가 가운데 정렬되는게 아니라 박스내 텍스트만 되는거임*/
+    width:50%; /*모든 구역의 기본값은 100%*/
+    width: 300px; /*고정 사이즈인 300px*/
+    height: 300px; /*고정 세로 사이즈*/
+  }
+/*이미지 정렬시 주의할점 text_align 으로는 움직이지 않음 
+대신 이미지를 컨텐츠로 가지고 있는 box3클래스로 이용하면 괜찮음*/
+.box3{text-align: center;}
+
+input{
+    width:150;height:100px; /*가로,세로사이즈*/
+    border:1px soild gray; /*테두리*/
+    border-radius: 10px; /*둥근모서리*/
+    text-align: center;/**/
+}
+form{text-align: center;}
+
+/*1.안쪽여백 2.바깥여백*/
+.box4{
+    padding : 50px; /*안쪽 여백은 테두리 - 컨텐츠 사이 여백*/
+    margin : 60px ; /*바깥여백 테두리와 다른박스의 여백*/
+}
+.box5{
+    width:100px;
+    padding-top:20px ; /*위 안쪽 여백*/
+    padding-right:30px ; /*오른쪽 안쪽 여백*/ 
+    padding-bottom:40px ; /*아래쪽 안쪽 여백*/
+    padding-left:50px ; /*왼쪽여백*/
+
+    margin-right : 40px; /*오른쪽 안쪽여백*/
+    margin-bottom: 30px; /*아래쪽 바깥 여백*/
+    margin-left:20px; /*왼쪽 바깥 여백*/
+}
+.box6{
+    padding:20px 30px 40px 50px; /*시계방향으로 돌아감*/
+    padding:20px 30px ; /*↑ ↓ = 20 , ← → = 30  */
+    padding:20px /**/
+    
+}
+.box7{
+    width: 200px;height:200px; /*가로세로 사이즈*/
+    margin: 0 auto; /*구역 가운데 정렬 가능*/
+    text-align: center; /*구역 내 컨텐츠를 가운데 정렬*/
+    background-color: red; /*구역 배경색*/
+}

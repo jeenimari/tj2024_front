@@ -1,0 +1,32 @@
+
+*{ font-family: '맑은 고딕';
+    font-size: 15px;
+
+}
+.top > img{width: 300px;}
+.top{text-align: left;}
+.bottom{
+    margin:10px 0px;
+}
+.bottom >.title{            /*다른 구역의 'title'과 구분하기 위해서*/
+    font-family: '맑은 고딕';
+    font-size:25px;
+    font-weight:bold;
+}
+.content{
+   
+    background-color: rgb(32, 87, 109); /*배경색*/
+    color: white;
+    padding: 15px 20px;
+    line-height: 170%;
+}
+.point1{
+    color:orange;
+    font-size:30px;
+
+}
+.point{
+    font-size: 30px;
+    color: orange;
+    
+}

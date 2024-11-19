@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body{
+    background-color: pink;
+    text-align: center;
+}
+.배경{
+    border: 3px solid pink;
+   
+    text-align: center;
+    
+}
+.넘버칠{
+    border: 1px solid white;
+    font-size: 30px;
+    width: 300px;
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin: 30px auto;
+    
+}
+.짱구{
+    width:200px; height:200px;
+    border-radius: 100px;   /*정사각형을만든후 border-radius 만들면 원으로 만들 수 있음*/
+}
+.개인공간{
+    background-color: skyblue;
+    border-radius: 30px;
+    margin: 20px;
+    width: 300px;
+    margin:0 auto;
+    padding: 20px;
+    font-size:20px ;
+    
+}
+.찜하기{
+    background-color: skyblue;
+    width: 300px;
+    border-radius: 30px;
+    margin:0 auto;
+    padding: 20px;
+    font-size:20px ;
+    
+}
+.인스타그램{
+    background-color: skyblue;
+    border-radius: 30px;
+    width: 300px;
+    margin:0 auto;
+    padding: 20px;
+    font-size:20px ;
+    
+}
+.페이스북{
+    background-color: skyblue;
+    border-radius: 30px;
+    width: 300px;
+    margin:0 auto;
+    padding: 20px;
+    font-size:20px ;
+}
+.하얗게{
+    font-weight: bold;
+    color: white;
+    text-decoration:none;
+}

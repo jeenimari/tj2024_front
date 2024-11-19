@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>RUBATO Photo Academy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* 헤더 스타일 */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: white;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .logo {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .logo span {
+            color: #d4af37;
+        }
+
+        /* 네비게이션 스타일 */
+        nav {
+            display: flex;
+            gap: 30px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+        }
+
+        /* 메인 배너 스타일 */
+        .main-banner {
+            position: relative;
+            height: 400px;
+            background-image: url('/api/placeholder/1920/400');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .banner-text {
+            font-style: italic;
+            font-size: 32px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        /* 콘텐츠 영역 스타일 */
+        .content {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        /* 사이드 메뉴 */
+        .side-menu {
+            width: 200px;
+            float: left;
+            background: #f5f5f5;
+        }
+
+        .side-menu h2 {
+            padding: 15px;
+            background: #666;
+            color: white;
+        }
+
+        .side-menu ul {
+            list-style: none;
+        }
+
+        .side-menu li a {
+            display: block;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: #333;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* 메인 콘텐츠 */
+        .main-content {
+            margin-left: 220px;
+        }
+
+        .main-content h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* 하단 설명 이미지 */
+        .content-image {
+            max-width: 100%;
+            margin: 20px 0;
+        }
+
+        /* 설명 텍스트 */
+        .content-text {
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+
+        /* 푸터 스타일 */
+        footer {
+            background: #333;
+            color: white;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer-logo {
+            opacity: 0.8;
+        }
+
+        .footer-info {
+            text-align: right;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            RUBATO <span>Photo Academy</span>
+        </div>
+        <nav>
+            <a href="#home">홈으로</a>
+            <a href="#login">회원가입</a>
+            <a href="#contact">문의하기</a>
+            <a href="#about">사진이론</a>
+            <a href="#courses">사진구도</a>
+            <a href="#technique">사진작가</a>
+            <a href="#gallery1">갤러리1</a>
+            <a href="#gallery2">갤러리2</a>
+        </nav>
+    </header>
+
+    <div class="main-banner">
+        <div class="banner-text">
+            Photography is delight, sadness, and loneliness.
+        </div>
+    </div>
+
+    <div class="content">
+        <aside class="side-menu">
+            <h2>사진이론</h2>
+            <ul>
+                <li><a href="#camera">카메라 동작 원리</a></li>
+                <li><a href="#terms">사진용어 해설</a></li>
+                <li><a href="#exposure">조리개와 심도</a></li>
+                <li><a href="#mode">카메라 촬영 모드</a></li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <h2>카메라 동작 원리</h2>
+            <div class="content-text">
+                DSLR 카메라에서 DSL은은 "Digital Single Reflex"의 약어로써 우리말로는 디지털 일안 반사식 카메라를 의미합니다. DSLR은 디지털 카메라 중에서 카메라 내부에 렌즈를 통해 들어온 빛이 상단의 펜타프리즘을 통하여 뷰파인더에 영상을 담아 사진을 촬영가 전에 쉽 보인다를 통하여 파사될을 확인할 수 있게 됩니다.
+            </div>
+            <img src="/api/placeholder/800/400" alt="카메라 구조도" class="content-image">
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-logo">RUBATO Photo Academy</div>
+        <div class="footer-info">
+            경기도 의정부시 회룡역로 1234-9 ~ 123-1234<br>
+            TEL : 031-123-1234 Email : qwaqwa@naver.com<br>
+            COPYRIGHT (c) 이젠 ALL RIGHTS RESERVED
+        </div>
+    </footer>
+</body>
+</html>

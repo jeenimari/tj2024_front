@@ -1,0 +1,16 @@
+*{border: 3px solid red;}
+
+.s1{
+    display: inline;
+    width: 200px; height:200px; /* 구역 사이즈(불가능):inline 사이즈를 적용할 수 없다.*/
+    margin: 20px 30px;
+    padding: 20px 30px;
+}
+
+.s2{
+    display: block; width: 100px; height:100px;
+}
+.s3{
+    display: inline-block;
+    width: 100px;height: 100px;
+}

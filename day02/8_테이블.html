@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>테이블 마크업</h1>
+    <table border="1" style="border-collapse:collapse">  <!--테이블 시작,border 속성 = 테두리-->
+        <tr> <!--테이블 행(가로추가)-->
+            <th> 제목 1 </th> <!--테이블 제목 셀추가(1칸) 좀더 굵은 굴씨임-->
+            <th> 제목 2 </th> <!--테이블 제목 셀추가-->
+
+        </tr>
+        <tr><!--행 추가-->
+            <td> 내용1 </td> <!--테이블 데이터 셀 추가 일반적인 텍스트임 -->
+            <td> 내용2 </td> <!--테이블 셀 추가-->
+        </tr>
+        <tr>
+            <td colspan="2">내용1</td> <!-- 콜스팬=열병합수-->
+        </tr>
+
+        <tr>
+        
+              <td rowspan="2"> 내용 2 </td> <!---로우스팬= 행병합수-->
+        </tr>
+
+        <tr>
+            <td>내용2</td>
+        </tr>
+
+    </table>  <!--테이블 끝-->
+</body>
+</html>

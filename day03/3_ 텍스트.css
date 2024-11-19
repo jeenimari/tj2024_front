@@ -1,0 +1,31 @@
+/*CSS주석
+선택자{속성명 : 속성값;}
+어디에{무엇을 : 어떻게;}
+*/
+@font-face {
+    font-family: 'CookieRun-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.title{
+    font-weight:bold; /*글꼴 진하게 h3 마크업은 기본적으로 진하게 포함됨*/
+    font-style: italic; /*글꼴 기울기 */
+    font-size: 30px; /*글꼴 크기 , px(픽셀) */
+    font-family: "궁서","굴림"; /*글꼴:사용자 PC에 설치된 글꼴만 가능 , 웹폰트 : 폰트제공하는 서버로부터 글꼴 사용*/
+}
+.content{
+    font-family:  'CookieRun-Regular';
+    color:gold; /*글꼴 색상임*/
+    word-spacing : 10px; /*단어 간격 :  어간*/
+    letter-spacing : 10px; /*글자 간격 : 자간*/
+    line-height:150%; /*줄간격,%단위로 들어감 보통 160~180%정도 씀*/
+}
+.writer{
+    text-align:center; /* 텍스트 or 컨텐츠 정렬 left , right ,center*/
+    text-decoration:underline overline line-through; /*underline 을 넣어주면 밑줄이 들어감,overline을 넣어주면 윗줄이 들어감,line-through면 취소선*/
+    text: shadow -10px -10px 5px red; /*텍스트 음영넣기 x축, y축 , 흐림정도 색상 */
+    color:red;
+    color:#ff0000;
+    color:rgb(255,0,0); /*1.색상명,2.RGB색상[0~255] 3.헥사코드[16진수]*/
+}

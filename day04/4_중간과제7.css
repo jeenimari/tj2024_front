@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:#fafafa;
+    font-family: Arial,sans-serif;
+    margin:0;
+    padding: 20px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+}
+.인스타대문{
+    display:flex;
+    max-width:935px;
+    margin:32px auto;
+}
+    
+.인스타사진{
+  text-align: center;
+  margin: 36px 0;
+}
+.우측으로{
+    float: right;
+    margin: 5px;
+   
+}
+
+.instar3{
+    background-color: white;
+    border:1px solid #dbdbdb;
+    border-radius:1px;
+    padding:20px 40px;
+    margin-bottom:10px;
+    
+}
+.instar4{
+    dispay:flex;
+    align-items:center;
+    margin: 20px 0;
+    }

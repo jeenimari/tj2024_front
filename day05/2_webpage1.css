@@ -1,0 +1,64 @@
+*{
+    
+    margin: 0px; padding: 0px;
+    list-style-type: none;
+    box-sizing: border-box;  
+}
+
+/*=========헤더부분========*/
+#header{
+    width: 1280px;
+    margin: 0 auto; /*박스/모델 구역 가로가운데 정렬*/
+    display: flex; /*하위 요소들을 배치방법 속성*/
+    justify-content: space-between; /*하위 요소들을 양쪽끝에 균등 가로 정렬*/
+    align-items: center; /*하위 요소들을 세로정렬*/
+}
+/*=========대표이미지 부분====*/
+
+#mainimg{
+    width: 100%;
+
+}
+/*본문부분*/
+#main{
+    width: 1280px; margin: 30px auto;
+    display:flex;justify-content: space-between;   
+}
+#aside{width:250px;} /*1280(부모)에서 1000(자식)*/
+#aside >h3{
+    background-color: gray;color: white; font-size: 20px; padding: 10px; /*적절한 여백과 글꼴 크기 넣기*/
+}
+#aside >ul > li{
+    padding:10px;
+    border-bottom: 1px solid lightgray;
+}
+#content >h3{ 
+    font-size: 20px;
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 20px; margin-bottom: 20px;
+}
+#content>img{
+    display:block; margin:0 auto; /*img 마크업을 block 변경후 margin*/
+}
+#content{width: 1000px;}
+/*푸터부문*/
+#footer{
+    background-color:#2c2a29;
+   
+}
+#footermain{
+    width:1280px; margin: 0 auto;
+    color: white;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#topmenu{display :flex; justify-content: flex-end;
+margin:10px 0px;font-size: 10px;}
+#topmenu >li{margin:left:20px;}
+#mainmenu{
+    display:flex; justify-content::flex-end;
+    margin: 20px 0px; font-size: 20px; font-weight: bold;
+}
