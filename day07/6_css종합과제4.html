@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -8,7 +9,344 @@
     <link rel='stylesheet' type='text/css' media='screen' href='6_css종합과제4.css'>
     <script src='main.js'></script>
 </head>
+
 <body>
-    
+
+
+
+    <div id="wrap"> <!--1.전체 레이아웃을잡는다-->
+        <ul id="topMenu"><!--2.상단 메뉴 -->
+            <li><a href="#">LOGIN</a> <span> | </span></li>
+            <li><a href="#">JOIN</a> <span> | </span></li>
+            <li><a href="#">MYPAGE</a> <span> | </span></li>
+            <li><a href="#">ORDER</a> <span> | </span></li>
+            <li><a href="#">CART(0)</a> <span> | </span></li>
+            <li><a href="#">COMMUNITY</a></li>
+            <li><a href="#"> <img src="../css종합과제4_샘플코드/img/topmenu.PNG"></a></li>
+
+        </ul> <!--상단메뉴는 마무리-->
+
+        <ul id="mainMenu"> <!--본메뉴-->
+            <!--로고구역--->
+            <div><a href="#"><img class="logo" src="../css종합과제4_샘플코드/img/logo.png"></a></div>
+            <ul><!--메뉴구역-->
+                <li><a href="#">BEST</a></li>
+                <li><a href="#"><span class="new">NEW~20%</span></a></li>
+                <li>
+                    <a href="#">MADE</a>
+                    <ul class="subMenu">
+                        <li><a href="#">티</a></li>
+                        <li><a href="#">셔츠</a></li>
+                        <li><a href="#">바지</a></li>
+                        <li><a href="#">아우터</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">BIG SIZE</a>
+                    <ul class="subMenu">
+                        <li><a href="#">티2</a></li>
+                        <li><a href="#">셔츠2</a></li>
+                        <li><a href="#">바지2</a></li>
+                        <li><a href="#">아우터2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">TOP</a></li>
+                <li><a href="#">SHIRTS</a></li>
+                <li><a href="#">PANTS</a></li>
+                <li><a href="#">OUTER</a></li>
+                <li><a href="#">SHOES&BAG</a></li>
+                <li><a href="#">ACC</a></li>
+                <li><a href="#">당일배송</a></li>
+                <li><a href="#">SALE</a></li>
+                <li><a href="#">1+1</a></li>
+            </ul>
+
+            <!--검색구역---->
+            <div id="searchbox">
+                <input />
+                <img src="../css종합과제4_샘플코드/img/search_icon.png" />
+
+            </div>
+        </ul> <!--본메뉴 끝-->
+
+        <img id="mainImg" src="../css종합과제4_샘플코드/img/main_img.jpg">
+
+        <div id="content">
+            <h3 class="title">HOT ITEM</h3>
+            <div class="comment">조군이 추천하는 핫 아이템입니다.</div>
+
+            <div id="items"> <!--제품목록-->
+
+                <div class="item"> <!--제품 1개===================-->
+                    <img class="itemIMG" src="../css종합과제4_샘플코드/img/goods/goods1.gif"> <!--제품이미지-->
+
+                    <div class="itemInfo"> <!--제품 정보---->
+                        <span class="color"> <!--2.제품 칼라/리뷰-->
+                            <div class="color">
+                                <span style="background-color: black;"></span>
+                                <span style="background-color: white;"></span>
+                        </span>
+                        <span class="review">
+                            (리뷰 : 379)
+                        </span>
+                    </div>
+
+                    <div class="itemName"> <!--2.제품 이름,옵션--->
+                        <div class="name">[1+1]핏좋은 프레쉬 탄탄 반팔티</div>
+                        <div class="size">M~2XL(95~115)</div>
+                        <div class="option">[SEMI-OVER FIT]</div>
+                    </div>
+
+                    <div class="itemPrice"> <!--2.제품 가격,할인율-->
+                        <div class="price">42,000원</div>
+                        <div class="discprice">36,900원</div>
+                        <div class="disc">12%</div>
+                    </div>
+
+                    <div class="itemIcon"> <!--2.제품 이벤트 아이콘-->
+                        <img src="../css종합과제4_샘플코드/img/best.jpg">
+                        <img src="../css종합과제4_샘플코드/img/rush_of_order.jpg">
+
+                    </div> <!--제품 정보 끝-->
+                </div>
+
+                <div class="item"> <!--제품 1개===================-->
+                    <img class="itemIMG" src="../css종합과제4_샘플코드/img/goods/goods1.gif"> <!--제품이미지-->
+
+                    <div class="itemInfo"> <!--제품 정보---->
+                        <span class="color"> <!--2.제품 칼라/리뷰-->
+                            <div class="color">
+                                <span style="background-color: black;"></span>
+                                <span style="background-color: white;"></span>
+                        </span>
+                        <span class="review">
+                            (리뷰 : 379)
+                        </span>
+                    </div>
+
+                    <div class="itemName"> <!--2.제품 이름,옵션--->
+                        <div class="name">[1+1]핏좋은 프레쉬 탄탄 반팔티</div>
+                        <div class="size">M~2XL(95~115)</div>
+                        <div class="option">[SEMI-OVER FIT]</div>
+                    </div>
+
+                    <div class="itemPrice"> <!--2.제품 가격,할인율-->
+                        <div class="price">42,000원</div>
+                        <div class="discprice">36,900원</div>
+                        <div class="disc">12%</div>
+                    </div>
+
+                    <div class="itemIcon"> <!--2.제품 이벤트 아이콘-->
+                        <img src="../css종합과제4_샘플코드/img/best.jpg">
+                        <img src="../css종합과제4_샘플코드/img/rush_of_order.jpg">
+
+                    </div> <!--제품 정보 끝-->
+                </div>
+
+                <div class="item"> <!--제품 1개===================-->
+                    <img class="itemIMG" src="../css종합과제4_샘플코드/img/goods/goods1.gif"> <!--제품이미지-->
+
+                    <div class="itemInfo"> <!--제품 정보---->
+                        <span class="color"> <!--2.제품 칼라/리뷰-->
+                            <div class="color">
+                                <span style="background-color: black;"></span>
+                                <span style="background-color: white;"></span>
+                        </span>
+                        <span class="review">
+                            (리뷰 : 379)
+                        </span>
+                    </div>
+
+                    <div class="itemName"> <!--2.제품 이름,옵션--->
+                        <div class="name">[1+1]핏좋은 프레쉬 탄탄 반팔티</div>
+                        <div class="size">M~2XL(95~115)</div>
+                        <div class="option">[SEMI-OVER FIT]</div>
+                    </div>
+
+                    <div class="itemPrice"> <!--2.제품 가격,할인율-->
+                        <div class="price">42,000원</div>
+                        <div class="discprice">36,900원</div>
+                        <div class="disc">12%</div>
+                    </div>
+
+                    <div class="itemIcon"> <!--2.제품 이벤트 아이콘-->
+                        <img src="../css종합과제4_샘플코드/img/best.jpg">
+                        <img src="../css종합과제4_샘플코드/img/rush_of_order.jpg">
+
+                    </div> <!--제품 정보 끝-->
+                </div>
+
+                <div class="item"> <!--제품 1개===================-->
+                    <img class="itemIMG" src="../css종합과제4_샘플코드/img/goods/goods1.gif"> <!--제품이미지-->
+
+                    <div class="itemInfo"> <!--제품 정보---->
+                        <span class="color"> <!--2.제품 칼라/리뷰-->
+                            <div class="color">
+                                <span style="background-color: black;"></span>
+                                <span style="background-color: white;"></span>
+                        </span>
+                        <span class="review">
+                            (리뷰 : 379)
+                        </span>
+                    </div>
+
+                    <div class="itemName"> <!--2.제품 이름,옵션--->
+                        <div class="name">[1+1]핏좋은 프레쉬 탄탄 반팔티</div>
+                        <div class="size">M~2XL(95~115)</div>
+                        <div class="option">[SEMI-OVER FIT]</div>
+                    </div>
+
+                    <div class="itemPrice"> <!--2.제품 가격,할인율-->
+                        <div class="price">42,000원</div>
+                        <div class="discprice">36,900원</div>
+                        <div class="disc">12%</div>
+                    </div>
+
+                    <div class="itemIcon"> <!--2.제품 이벤트 아이콘-->
+                        <img src="../css종합과제4_샘플코드/img/best.jpg">
+                        <img src="../css종합과제4_샘플코드/img/rush_of_order.jpg">
+
+                    </div> <!--제품 정보 끝-->
+                </div>
+
+                <div class="item"> <!--제품 1개===================-->
+                    <img class="itemIMG" src="../css종합과제4_샘플코드/img/goods/goods1.gif"> <!--제품이미지-->
+
+                    <div class="itemInfo"> <!--제품 정보---->
+                        <span class="color"> <!--2.제품 칼라/리뷰-->
+                            <div class="color">
+                                <span style="background-color: black;"></span>
+                                <span style="background-color: white;"></span>
+                        </span>
+                        <span class="review">
+                            (리뷰 : 379)
+                        </span>
+                    </div>
+
+                    <div class="itemName"> <!--2.제품 이름,옵션--->
+                        <div class="name">[1+1]핏좋은 프레쉬 탄탄 반팔티</div>
+                        <div class="size">M~2XL(95~115)</div>
+                        <div class="option">[SEMI-OVER FIT]</div>
+                    </div>
+
+                    <div class="itemPrice"> <!--2.제품 가격,할인율-->
+                        <div class="price">42,000원</div>
+                        <div class="discprice">36,900원</div>
+                        <div class="disc">12%</div>
+                    </div>
+
+                    <div class="itemIcon"> <!--2.제품 이벤트 아이콘-->
+                        <img src="../css종합과제4_샘플코드/img/best.jpg">
+                        <img src="../css종합과제4_샘플코드/img/rush_of_order.jpg">
+
+                    </div> <!--제품 정보 끝-->
+                </div>
+
+                <div class="item"> <!--제품 1개===================-->
+                    <img class="itemIMG" src="../css종합과제4_샘플코드/img/goods/goods1.gif"> <!--제품이미지-->
+
+                    <div class="itemInfo"> <!--제품 정보---->
+                        <span class="color"> <!--2.제품 칼라/리뷰-->
+                            <div class="color">
+                                <span style="background-color: black;"></span>
+                                <span style="background-color: white;"></span>
+                        </span>
+                        <span class="review">
+                            (리뷰 : 379)
+                        </span>
+                    </div>
+
+                    <div class="itemName"> <!--2.제품 이름,옵션--->
+                        <div class="name">[1+1]핏좋은 프레쉬 탄탄 반팔티</div>
+                        <div class="size">M~2XL(95~115)</div>
+                        <div class="option">[SEMI-OVER FIT]</div>
+                    </div>
+
+                    <div class="itemPrice"> <!--2.제품 가격,할인율-->
+                        <div class="price">42,000원</div>
+                        <div class="discprice">36,900원</div>
+                        <div class="disc">12%</div>
+                    </div>
+
+                    <div class="itemIcon"> <!--2.제품 이벤트 아이콘-->
+                        <img src="../css종합과제4_샘플코드/img/best.jpg">
+                        <img src="../css종합과제4_샘플코드/img/rush_of_order.jpg">
+
+                    </div> <!--제품 정보 끝-->
+                </div>
+
+                <div class="item"> <!--제품 1개===================-->
+                    <img class="itemIMG" src="../css종합과제4_샘플코드/img/goods/goods1.gif"> <!--제품이미지-->
+
+                    <div class="itemInfo"> <!--제품 정보---->
+                        <span class="color"> <!--2.제품 칼라/리뷰-->
+                            <div class="color">
+                                <span style="background-color: black;"></span>
+                                <span style="background-color: white;"></span>
+                        </span>
+                        <span class="review">
+                            (리뷰 : 379)
+                        </span>
+                    </div>
+
+                    <div class="itemName"> <!--2.제품 이름,옵션--->
+                        <div class="name">[1+1]핏좋은 프레쉬 탄탄 반팔티</div>
+                        <div class="size">M~2XL(95~115)</div>
+                        <div class="option">[SEMI-OVER FIT]</div>
+                    </div>
+
+                    <div class="itemPrice"> <!--2.제품 가격,할인율-->
+                        <div class="price">42,000원</div>
+                        <div class="discprice">36,900원</div>
+                        <div class="disc">12%</div>
+                    </div>
+
+                    <div class="itemIcon"> <!--2.제품 이벤트 아이콘-->
+                        <img src="../css종합과제4_샘플코드/img/best.jpg">
+                        <img src="../css종합과제4_샘플코드/img/rush_of_order.jpg">
+
+                    </div> <!--제품 정보 끝-->
+                </div>
+
+                <div class="item"> <!--제품 1개===================-->
+                    <img class="itemIMG" src="../css종합과제4_샘플코드/img/goods/goods1.gif"> <!--제품이미지-->
+
+                    <div class="itemInfo"> <!--제품 정보---->
+                        <span class="color"> <!--2.제품 칼라/리뷰-->
+                            <div class="color">
+                                <span style="background-color: black;"></span>
+                                <span style="background-color: white;"></span>
+                        </span>
+                        <span class="review">
+                            (리뷰 : 379)
+                        </span>
+                    </div>
+
+                    <div class="itemName"> <!--2.제품 이름,옵션--->
+                        <div class="name">[1+1]핏좋은 프레쉬 탄탄 반팔티</div>
+                        <div class="size">M~2XL(95~115)</div>
+                        <div class="option">[SEMI-OVER FIT]</div>
+                    </div>
+
+                    <div class="itemPrice"> <!--2.제품 가격,할인율-->
+                        <div class="price">42,000원</div>
+                        <div class="discprice">36,900원</div>
+                        <div class="disc">12%</div>
+                    </div>
+
+                    <div class="itemIcon"> <!--2.제품 이벤트 아이콘-->
+                        <img src="../css종합과제4_샘플코드/img/best.jpg">
+                        <img src="../css종합과제4_샘플코드/img/rush_of_order.jpg">
+
+                    </div> <!--제품 정보 끝-->
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
+
 </html>
