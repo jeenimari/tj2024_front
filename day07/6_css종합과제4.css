@@ -77,5 +77,14 @@ a{color:black; text-decoration:none;}
     font-size: 10px; text-align: center;
     color: #999999; margin: 20px 0px;
 }
+
+/*items 1600 한줄에 4개씩의므로 나누기 4하고 여백 조금 빼기*/
+#items > .item{ width: 380px; margin: 30px 0px;}
+#items > .item > .itemImg{ width: 100%;}
+#items .color > span{
+    width:10px; height: 10px;
+    display: inline-block;
+    border: 1px solid #DBDBDB;
+}
 /**/
 /*5.푸터*/
