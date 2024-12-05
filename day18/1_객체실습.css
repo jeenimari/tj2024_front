@@ -1,0 +1,30 @@
+#calTop{
+    display: flex; /*하위요소들을 저장하는방법*/
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+#calTop >h6{
+    margin : 30px 10px;
+}
+#calTop > button{
+    background-color: white;
+    border: none;
+}
+#calBottom{
+    display: flex;
+    flex-wrap: wrap; /*하위요소들이 자동으로 줄 바꿈*/
+}
+
+#calBottom > div{
+    width: 14%; /*부모요소의 가로사이즈 100%의 7등분*/
+    height: 50px; /*세로사이즈*/
+    border: 1px solid gray;
+}
+#calBottom > .week{
+    height: 30px;
+    text-align: center;
+}
+#calBottom >.sunday{
+    background-color: red; color: white;
+}
