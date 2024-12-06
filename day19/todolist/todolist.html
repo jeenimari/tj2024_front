@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='todolist.css'>
+
+</head>
+
+<body>
+    <div id="wrap">
+        <h1>나만의 할일목록</h1>
+        <div id="todoTop">
+            <input class="contentInput" />
+            <button onclick="등록함수()" class="addBtn">등록</button>
+        </div> <!--탑끝-->
+        <div id="todoBottom"><!--바텀시작-->
+            <div class="contentBox">
+                <div class="content">1교시수업듣기</div>
+                <div class="contentBtns">
+                    <button class="updateBtn">수정</button>
+                    <button class="deleteBtn">삭제</button>
+                </div>
+            </div>
+
+            <div class="contentBox success">
+                <div class="content">밥먹기</div>
+                <div class="contentBtns">
+                    <button class="updateBtn">수정</button>
+                    <button class="deleteBtn">삭제</button>
+
+                </div> <!--contentBtns end-->
+            </div>
+        </div><!--바텀끝-->
+    </div> <!-- wrap 끝-->
+
+
+
+    <script src='todolist.js'></script>
+</body>
+
+</html>
